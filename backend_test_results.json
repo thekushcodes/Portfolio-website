@@ -1,0 +1,73 @@
+{
+  "summary": {
+    "tests_run": 9,
+    "tests_passed": 8,
+    "success_rate": 88.88888888888889,
+    "timestamp": "2025-12-27T13:24:09.305557"
+  },
+  "test_results": [
+    {
+      "test_name": "Health Check Endpoint",
+      "success": true,
+      "details": "Status: 200, Message: Portfolio API is running",
+      "response_data": null,
+      "timestamp": "2025-12-27T13:24:06.296131"
+    },
+    {
+      "test_name": "Contact Form Submission",
+      "success": true,
+      "details": "Message created with ID: 732869f1-b375-4f8f-87e9-6f812b9376e3",
+      "response_data": null,
+      "timestamp": "2025-12-27T13:24:06.582074"
+    },
+    {
+      "test_name": "Validation - Missing Name",
+      "success": true,
+      "details": "Correctly rejected with status 422",
+      "response_data": null,
+      "timestamp": "2025-12-27T13:24:06.660603"
+    },
+    {
+      "test_name": "Validation - Invalid Email",
+      "success": true,
+      "details": "Correctly rejected with status 422",
+      "response_data": null,
+      "timestamp": "2025-12-27T13:24:06.741456"
+    },
+    {
+      "test_name": "Validation - Missing Subject",
+      "success": true,
+      "details": "Correctly rejected with status 422",
+      "response_data": null,
+      "timestamp": "2025-12-27T13:24:06.817484"
+    },
+    {
+      "test_name": "Validation - Missing Message",
+      "success": true,
+      "details": "Correctly rejected with status 422",
+      "response_data": null,
+      "timestamp": "2025-12-27T13:24:06.889277"
+    },
+    {
+      "test_name": "Get Contact Messages",
+      "success": true,
+      "details": "Retrieved 2 messages",
+      "response_data": null,
+      "timestamp": "2025-12-27T13:24:06.968684"
+    },
+    {
+      "test_name": "CORS Headers",
+      "success": false,
+      "details": "Missing CORS headers. Found: []",
+      "response_data": null,
+      "timestamp": "2025-12-27T13:24:07.045061"
+    },
+    {
+      "test_name": "Email Functionality",
+      "success": true,
+      "details": "Contact form submitted successfully (email should be sent)",
+      "response_data": null,
+      "timestamp": "2025-12-27T13:24:09.302282"
+    }
+  ]
+}
